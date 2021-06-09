@@ -55,7 +55,7 @@ function chooseWinner(chosen, choice) {
 }
 
 function aiChooseAnswer(chosen) {
-  let randomNum = Math.floor(Math.random() * 2);
+  let randomNum = Math.floor(Math.random() * 3);
   let options = ["rock", "paper", "scissors"];
   let choice = options[randomNum];
   chooseWinner(chosen, choice);
